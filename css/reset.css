@@ -1,0 +1,44 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,dl,dd,input,form,select{
+  margin:0;
+  padding:0;
+}
+
+ul,ol{
+ list-style:none;
+}
+
+a{
+  text-decoration:none;
+}
+img{
+ border:0;
+}
+em,i{
+ font-style:normal;
+}
+b,strong{
+font-weight:normal;
+}
+.fl{
+  float:left;
+}
+.fr{
+ float:right;
+}
+
+//如果两个不浮动的盒子相互嵌套,对内部的盒子设置margin-top会导致属性被自动转移到外部的盒子上,导致内部盒子的margin-top设置失败最靠谱的解决方式是为父元素//添加一个伪类
+.clearfix:before{
+ content:'';
+ display:table;
+}
+//在设计网页布局时,为了便于快速布局,会将子元素设为浮动元素,父元素宽度设为固定,高度不设置,这样随着子元素的添加,父元素的高度就会动态变化,但尴尬的是,浮动//子元素并不能"撑开父元素的高度",于是为父元素增加伪类便成了解决这种尴尬局面最好的方式;
+.clearfix:after{
+   content:"";
+   display:table;
+   clear:both;
+}
+
+/*适配非主流浏览器(IE浏览器)*/
+.clearfix{    
+    zoom:1;
+}
