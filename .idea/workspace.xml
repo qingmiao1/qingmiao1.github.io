@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="50237344-10c6-4556-afc2-8788c88d70e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/set_roots.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/set_roots.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +24,6 @@
               <caret line="5" column="34" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="34" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../reset.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -61,8 +58,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="48" />
-    <option name="y" value="66" />
+    <option name="x" value="121" />
+    <option name="y" value="84" />
     <option name="width" value="1804" />
     <option name="height" value="938" />
   </component>
@@ -117,12 +114,12 @@
       <updated>1592197470197</updated>
       <workItem from="1592197471380" duration="2682000" />
       <workItem from="1592203987097" duration="1321000" />
-      <workItem from="1592206169552" duration="948000" />
+      <workItem from="1592206169552" duration="1090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4951000" />
+    <option name="totallyTimeSpent" value="5093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -153,6 +150,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index2.html" />
     <entry file="file://$PROJECT_DIR$/../reset.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ll.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
