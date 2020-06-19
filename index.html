@@ -9,13 +9,14 @@
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width,initial-scale=0.5,maximum-scale=0.5,minimum-scale=0.5,user-scalable=no">
     <style>
+        /*header*/
         .container{
           position: absolute;
           top:0;
           bottom:0;
           left:0;
           right:0;
-          background:green;
+          background:url('./images/background.jpg');
         }
         .header-container{
           height: 1.6rem;
@@ -63,16 +64,63 @@
             color:#7fd0ca;
             font-size:1.5rem;
         }
+       /*recommand*/
+       .recommand-container{
+         box-sizing:border-box;
+         margin-top:2.5rem;
+         background: url('./images/recommand-background.png');
+         background-size: 100% 100%;
+         padding:0.9rem 0.7rem;
+       }
+       .recom-bells,.recom-items{
+           box-sizing:border-box;
+           height: 9.3rem;
+           padding:0.5rem 0.4rem;
+           background-color: #fffdfe;
+           border-radius:0.25rem;
+          flex-grow: 1;
+       }
+       .recom-bells{
+        margin-right: 0.5rem;
+       }
+       .bells-img,.items-img{
+          width: 100%;
+          height: 5.85rem;
+       }
+       .bells-img img,.items-img img{
+        width: 100%;
+        height: 100%;
+       }
+       .bells-buy,.items-buy{
+         margin:0.5rem 0.1rem;
+         height: 2.0rem;
+         box-sizing: border-box;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background-color:#ffc11c;
+         border-radius:1.25rem;
+          border:0.1rem solid #232d48;
+       }
+       .bells-buy .buy-button,.items-buy .buy-button{
+        font-family: Arial;
+        font-size: 0.9rem;
+        color:#fffbed;
+       font-weight: 700;
+       }
+       .recommand-top{
+        display: flex;
+       }
     </style>
 </head>
 <body>
     <div class='container'>
-        <div class='header-container'>
+      <div class='header-container'>
         <div class='logo-container'>
             <div class='logo-img'>
                 <img src="./images/logo.png">
             </div>
-        </div>
+         </div>
          <div class='user-container'>
              <div class='user-left'>
                  <div class='user-operate'>
@@ -94,6 +142,27 @@
                  </div>
              </div>
          </div>
+      </div>
+      <div class='recommand-container'>
+        <div class='recommand-top'>
+            <div class='recom-bells'>
+              <div class='bells-img'>
+                  <img src="./images/bells.png">
+              </div>
+              <div class='bells-buy'>
+                  <div class='buy-button'>Buy Now</div>
+              </div>
+          </div>
+          <div class='recom-items'>
+              <div class='items-img'>
+                  <img src="./images/bells.png">
+              </div>
+              <div class='items-buy'>
+                  <div class='buy-button'>Buy Now</div>
+              </div>
+          </div>
+        </div>
+          <div class='recom-tickes'></div>
       </div>
     </div>
 </body>
